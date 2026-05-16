@@ -22,43 +22,6 @@
       background-size: 70px 70px;
     }
 
-    .track-logo {
-      width: 240px;
-      height: 420px;
-      position: relative;
-      margin: auto;
-    }
-
-    .track-line {
-      position: absolute;
-      inset: 0;
-      border: 2px solid rgba(255,255,255,0.9);
-      border-radius: 999px;
-    }
-
-    .track-line:nth-child(2) {
-      inset: 12px;
-    }
-
-    .track-line:nth-child(3) {
-      inset: 24px;
-    }
-
-    .track-line:nth-child(4) {
-      inset: 36px;
-    }
-
-    .slash {
-      position: absolute;
-      width: 2px;
-      height: 180px;
-      background: black;
-      transform: rotate(38deg);
-      top: 110px;
-      left: 120px;
-      box-shadow: 20px 0 0 black, 40px 0 0 black;
-    }
-
     .hero-glow {
       position: absolute;
       width: 800px;
@@ -78,9 +41,7 @@
     <div class="hero-glow"></div>
 
     <header class="flex items-center justify-between px-8 py-6 relative z-10">
-      <div class="text-sm tracking-[0.45em] font-semibold">
-        MILEZERO
-      </div>
+      <img src="milezero-wordmark.png" alt="MILEZERO" class="h-5 object-contain" />
 
       <nav class="hidden md:flex gap-10 text-xs tracking-[0.3em] text-white/50 uppercase">
         <a href="#drop">Drop 001</a>
@@ -153,17 +114,7 @@
             0M → 8849M
           </div>
 
-          <div class="track-logo">
-            <div class="track-line"></div>
-            <div class="track-line"></div>
-            <div class="track-line"></div>
-            <div class="track-line"></div>
-            <div class="slash"></div>
-          </div>
-
-          <div class="text-center mt-10 text-sm tracking-[0.55em] uppercase">
-            MILEZERO
-          </div>
+          <img src="milezero-track-logo.png" alt="MILEZERO Track Logo" class="w-full max-w-[340px] object-contain" />
         </div>
       </div>
 
@@ -240,4 +191,4 @@
   </section>
 
 </body>
-</h
+</html>

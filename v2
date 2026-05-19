@@ -1,0 +1,685 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>MILEZERO — Start From Zero</title>
+  <meta name="description" content="MILEZERO. Performance apparel engineered for endurance, expedition, and ascent. Every expedition starts at zero." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <meta property="og:title" content="MILEZERO — Start From Zero" />
+  <meta property="og:description" content="Built for the ascent. Forged through distance. Designed for those who go." />
+  <meta name="theme-color" content="#050505" />
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@200,300,400,500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500&family=JetBrains+Mono:wght@300;400;500&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__mark">
+      <img class="loader__logo" src="assets/logo-secondary-white.png" alt="" />
+      <div class="loader__bar"></div>
+      <span>START / ZERO</span>
+    </div>
+  </div>
+
+  <!-- Nav (injected) -->
+  <div data-nav></div>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" role="banner">
+    <div class="hero__stage" aria-hidden="true">
+      <div class="hero__slide" id="s0"></div>
+      <div class="hero__slide" id="s1"></div>
+      <div class="hero__slide" id="s2"></div>
+      <div class="hero__slide" id="s3"></div>
+      <div class="hero__slide" id="s4"></div>
+    </div>
+    <div class="hero__vignette" aria-hidden="true"></div>
+    <div class="hero__grain" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <div class="hero__top">
+        <span class="t-mono">N 27° 59′ &nbsp; E 86° 55′</span>
+        <span class="t-mono">MZ · 2025 / Collection 01</span>
+      </div>
+
+      <div class="hero__center">
+        <span class="hero__tagline">Engineered to be used</span>
+        <h1 class="hero__title hero__title--logo">
+          <img src="assets/logo-wordmark-white.png" alt="MILE ZERO" />
+        </h1>
+        <p class="t-mono" style="color:var(--c-silver); letter-spacing:.42em;">Start from zero</p>
+      </div>
+
+      <div class="hero__bottom">
+        <div class="hero__meta">
+          <span class="t-mono">Latitude</span>
+          <span class="v">27° 59′ N</span>
+        </div>
+        <a href="#manifesto" class="hero__scroll">
+          <span>Scroll</span>
+          <span class="line" aria-hidden="true"></span>
+          <span>01 / 06</span>
+        </a>
+        <div class="hero__meta" style="text-align:right; align-items:flex-end;">
+          <span class="t-mono">Altitude</span>
+          <span class="v">+8849M</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__progress" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <!-- Reflective ticker -->
+  <div data-ticker></div>
+
+  <!-- ===== MANIFESTO ===== -->
+  <section class="manifesto section" id="manifesto" aria-labelledby="manifesto-h">
+    <div class="wrap-w">
+      <div class="s-head reveal">
+        <div class="s-head__row">
+          <span class="num">01 / Manifesto</span>
+          <span class="num">MZ — START</span>
+        </div>
+      </div>
+
+      <div class="manifesto__inner">
+        <div class="manifesto__emblem reveal" aria-hidden="true">
+          <img src="assets/logo-emblem-white.png" alt="" />
+        </div>
+        <h2 id="manifesto-h" class="manifesto__lead reveal">
+          Before the summit. Before the storm. <em>Zero.</em>
+        </h2>
+        <div class="manifesto__body reveal">
+          <p>Everyone starts somewhere. Before the summit, before the expedition, before the transformation, before the line that splits who you were from who you are becoming — there is a single point. Zero.</p>
+          <p><strong>MILEZERO</strong> was built for the people who keep returning to it. The ones addicted to progression. The ones who choose voluntary discomfort. The ones training before sunrise, running through weather, climbing in the dark, swimming in cold water that nobody asked them to enter.</p>
+          <p>This is gear for mountains, oceans, deserts, and storms. For miles that nobody is counting. We make it to be used — to be sweat in, scratched, soaked through, hauled, repaired, and used again. <strong>Performance is not a finish. It is the distance between zero and what comes next.</strong></p>
+        </div>
+      </div>
+
+      <ul class="manifesto__grid reveal" aria-label="Core pillars">
+        <li class="manifesto__cell">
+          <span class="num">Pillar I</span>
+          <span class="title">Endurance</span>
+          <p>Built for the long line. Distance over decoration. Materials that hold up after the hundredth wash, the hundredth mile, the hundredth dawn.</p>
+        </li>
+        <li class="manifesto__cell">
+          <span class="num">Pillar II</span>
+          <span class="title">Expedition</span>
+          <p>Designed for environments that do not negotiate. Cold, salt, altitude, weather. Equipment for the route, not the photo.</p>
+        </li>
+        <li class="manifesto__cell">
+          <span class="num">Pillar III</span>
+          <span class="title">Ascent</span>
+          <p>Movement upward. Every garment is a small instrument toward higher ground — measured, deliberate, accountable to use.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section class="products section" id="products" aria-labelledby="products-h">
+    <div class="wrap-w">
+      <div class="s-head reveal">
+        <div class="s-head__row">
+          <span class="num">02 / Collection 01</span>
+          <h2 id="products-h" class="title chrome-text">Equipment, made to be used.</h2>
+        </div>
+        <div class="s-head__row">
+          <span class="lede">Five technical pieces. Cut for distance, weather, and elevation. No colour. No noise. Built for the route.</span>
+          <a href="shop.html" class="btn btn--ghost">View all gear <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+      <div class="product-rail">
+
+        <a href="product.html?id=MZ-001" class="p-card feature" data-prod="MZ-001" aria-label="MZ-001 Running Shirt">
+          <div class="p-card__img" style="background-image:url('assets/brand/mz-white-shirt-collage.jpg')"></div>
+          <div class="p-card__shade"></div>
+          <div class="p-card__body">
+            <span class="p-card__sku">MZ-001 · Endurance</span>
+            <h3 class="p-card__name">Running Shirt — Mile Zero</h3>
+            <div class="p-card__row">
+              <span class="p-card__price">USD 145</span>
+              <span class="p-card__cta">Open <span class="arrow">→</span></span>
+            </div>
+          </div>
+        </a>
+
+        <a href="product.html?id=MZ-002" class="p-card normal" data-prod="MZ-002" aria-label="MZ-002 Expedition Shell">
+          <div class="p-card__img" style="background-image:url('assets/brand/mz-black-shirt-trail.jpg')"></div>
+          <div class="p-card__shade"></div>
+          <div class="p-card__body">
+            <span class="p-card__sku">MZ-002 · Expedition</span>
+            <h3 class="p-card__name">Technical Expedition Shell</h3>
+            <div class="p-card__row">
+              <span class="p-card__price">USD 685</span>
+              <span class="p-card__cta">Open <span class="arrow">→</span></span>
+            </div>
+          </div>
+        </a>
+
+        <a href="product.html?id=MZ-003" class="p-card third" data-prod="MZ-003" aria-label="MZ-003 2-in-1 Endurance Shorts">
+          <div class="p-card__img" style="background-image:url('assets/brand/mz-shorts-technical.jpg')"></div>
+          <div class="p-card__shade"></div>
+          <div class="p-card__body">
+            <span class="p-card__sku">MZ-003 · Endurance</span>
+            <h3 class="p-card__name">2-in-1 Endurance Shorts</h3>
+            <div class="p-card__row">
+              <span class="p-card__price">USD 165</span>
+              <span class="p-card__cta">Open <span class="arrow">→</span></span>
+            </div>
+          </div>
+        </a>
+
+        <a href="product.html?id=MZ-004" class="p-card third" data-prod="MZ-004" aria-label="MZ-004 Reflective Performance Cap">
+          <div class="p-card__img" style="background-image:url('assets/brand/mz-black-cap-back.jpg')"></div>
+          <div class="p-card__shade"></div>
+          <div class="p-card__body">
+            <span class="p-card__sku">MZ-004 · Endurance</span>
+            <h3 class="p-card__name">Reflective Performance Cap</h3>
+            <div class="p-card__row">
+              <span class="p-card__price">USD 95</span>
+              <span class="p-card__cta">Open <span class="arrow">→</span></span>
+            </div>
+          </div>
+        </a>
+
+        <a href="product.html?id=MZ-005" class="p-card third" data-prod="MZ-005" aria-label="MZ-005 Alpine Midlayer">
+          <div class="p-card__img" style="background-image:url('assets/brand/mz-black-shirt-collage.jpg')"></div>
+          <div class="p-card__shade"></div>
+          <div class="p-card__body">
+            <span class="p-card__sku">MZ-005 · Ascent</span>
+            <h3 class="p-card__name">Alpine Midlayer 280</h3>
+            <div class="p-card__row">
+              <span class="p-card__price">USD 325</span>
+              <span class="p-card__cta">Open <span class="arrow">→</span></span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PHILOSOPHY ===== -->
+  <section class="philosophy section-tight" id="philosophy" aria-labelledby="philos-h">
+    <div class="wrap-w">
+      <div class="s-head reveal">
+        <div class="s-head__row">
+          <span class="num">03 / Performance Philosophy</span>
+          <span class="num">Engineered for use</span>
+        </div>
+      </div>
+
+      <div class="philosophy__inner">
+        <div class="philosophy__media reveal" style="background-image:url('assets/brand/mz-white-shirt-mountain-back.jpg')" aria-hidden="true"></div>
+        <div class="philosophy__copy reveal">
+          <h2 id="philos-h" class="philosophy__lead">
+            Gear should earn wear. <span class="accent">Performance creates character.</span>
+          </h2>
+          <p style="color:var(--c-silver); font-size:var(--text-base); max-width: 50ch;">
+            Every garment is engineered to a single standard — to survive what the route asks of it. We do not make gear to be photographed. We make it to be sweat in, soaked through, scratched, and used until it tells the story of the person inside it.
+          </p>
+          <ul class="philosophy__list" aria-label="Engineered for">
+            <li><span class="k">01</span><span class="v">Sweat — moisture-rate vapour transmission across long efforts</span></li>
+            <li><span class="k">02</span><span class="v">Weather — wind, rain, sleet, and storm-class abrasion</span></li>
+            <li><span class="k">03</span><span class="v">Distance — fatigue-tolerant cuts, no chafe zones, all-day fit</span></li>
+            <li><span class="k">04</span><span class="v">Mountains — alpine cold, friction abrasion, freezing humidity</span></li>
+            <li><span class="k">05</span><span class="v">Saltwater — salt-stable yarns, anti-corrosion hardware</span></li>
+            <li><span class="k">06</span><span class="v">Elevation — UV at altitude, breathability under load</span></li>
+            <li><span class="k">07</span><span class="v">Endurance — wash cycles, repair cycles, season cycles</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATEMENT STRIP ===== -->
+  <section class="statement" aria-hidden="true">
+    <p class="statement__big">Forged through distance.<br/>Designed for those who go.</p>
+    <p class="statement__sub">MZ — Built for the ascent</p>
+  </section>
+
+  <!-- ===== JOURNAL ===== -->
+  <section class="journal section" id="journal" aria-labelledby="journal-h">
+    <div class="wrap-w">
+      <div class="s-head reveal">
+        <div class="s-head__row">
+          <span class="num">04 / Expedition Journal</span>
+          <h2 id="journal-h" class="title">From the field.</h2>
+        </div>
+        <div class="s-head__row">
+          <span class="lede">Selected expedition entries — distances run, routes climbed, oceans crossed. The archive that justifies the equipment.</span>
+          <a href="journal.html" class="btn btn--ghost">All entries <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+      <ul class="journal__list reveal">
+
+        <li>
+          <a class="journal__item" href="journal.html#ascent-log-001">
+            <span class="num">/001</span>
+            <span class="loc">Chamonix · FR</span>
+            <span class="title">Ascent Log 001</span>
+            <span class="lede">Pre-dawn alpine traverse. Three days of fog, freezing rain, and a route that closed twice before it opened.</span>
+            <span class="arrow">Read <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+
+        <li>
+          <a class="journal__item" href="journal.html#oahu-kona">
+            <span class="num">/002</span>
+            <span class="loc">Oahu → Kona</span>
+            <span class="title">Oahu to Kona</span>
+            <span class="lede">A 132-mile open-water crossing. Salt, current, night swim. The notebook that came back wet.</span>
+            <span class="arrow">Read <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+
+        <li>
+          <a class="journal__item" href="journal.html#zero-8849">
+            <span class="num">/003</span>
+            <span class="loc">Sea → Summit</span>
+            <span class="title">0M → 8849M</span>
+            <span class="lede">From tide line to roof of the world. A study of altitude, equipment failure, and the math of patience.</span>
+            <span class="arrow">Read <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+
+        <li>
+          <a class="journal__item" href="journal.html#madeira-60">
+            <span class="num">/004</span>
+            <span class="loc">Madeira · PT</span>
+            <span class="title">Madeira 60K</span>
+            <span class="lede">Sixty kilometres of stone, wet laurisilva, and 3,800m of vertical. A test of the MZ-001 over fourteen hours.</span>
+            <span class="arrow">Read <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+
+        <li>
+          <a class="journal__item" href="journal.html#storms-pac">
+            <span class="num">/005</span>
+            <span class="loc">North Pacific</span>
+            <span class="title">Storms Over the Pacific</span>
+            <span class="lede">Six days at sea aboard a 41-foot training boat. Field notes on cold-wet exposure and the limits of a hard shell.</span>
+            <span class="arrow">Read <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="section-tight" style="background:var(--c-void); text-align:center;">
+    <div class="wrap" style="display:grid; gap:var(--space-8); justify-items:center;">
+      <span class="t-eyebrow reveal">MZ · Collection 01</span>
+      <h2 class="reveal" style="font-family:var(--font-display); font-weight:100; font-size:var(--text-2xl); letter-spacing:-.03em; line-height:1.05; max-width:22ch; color:var(--c-snow);">
+        Begin where the route begins. <span class="chrome-text">At zero.</span>
+      </h2>
+      <div class="reveal" style="display:flex; gap:var(--space-3); flex-wrap:wrap; justify-content:center;">
+        <a class="btn btn--chrome" href="shop.html">Shop the collection <span class="arrow">→</span></a>
+        <a class="btn" href="about.html">Read the philosophy <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <div data-footer></div>
+
+  <script src="js/partials.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    // Set hero slide backgrounds (deferred so they load after critical CSS paints)
+    (function () {
+      const urls = [
+        "assets/brand/mz-black-shirt-trail.jpg",
+        "assets/brand/mz-summit-black-shirt.jpg",
+        "assets/brand/mz-white-shirt-mountain-back.jpg",
+        "assets/brand/mz-black-shirt-collage.jpg",
+        "assets/brand/mz-black-cap-back.jpg",
+        "assets/brand/mz-white-shirt-mountain-collage.jpg"
+      ];
+      urls.forEach((u, i) => {
+        const el = document.getElementById('s' + i);
+        if (el) el.style.backgroundImage = `url('${u}')`;
+      });
+    })();
+  </script>
+
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
